@@ -81,3 +81,11 @@ fun FahrenheitCelsius() {
     }
 
 }
+
+@Preview(showBackground = true)
+@Composable
+fun DefaultPreview() {
+    FahrenheitCelsiusAppTheme(){
+        FahrenheitCelsius()
+     }
+    }
